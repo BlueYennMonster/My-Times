@@ -1,3 +1,7 @@
+div {
+	border: 1px solid black;
+}
+
 header {
 	display: flex;
 	flex-direction: row;
@@ -10,6 +14,20 @@ header {
 	align-items: center;
     position: fixed;
     justify-content: space-between;
+    z-index: 1;
+    background-color: white;
+    top: 0px;
+}
+
+nav {
+	display: block;
+    margin-right: 40px;
+}
+
+nav span a {
+	display: inline-block;
+    color: black;
+    padding: 20px 10px;
 }
 
 .logo {
@@ -24,14 +42,66 @@ header {
 	margin-right: 12px;
 }
 
-.nav {
-	display: block;
-    margin-right: 40px;
+
+
+.content{
+	display: flex;
+	margin: 0 auto 78px auto;
+	padding-top: 116px;
+	justify-content: space-around;
 }
 
-.nav span a {
-	display: inline-block;
-    color: black;
-    padding: 20px 10px;
+.column {
+	display: flex;
+	flex-direction: column;
+}
+
+.column.large{
+	width: 630px;
+}
+
+.column.medium {
+	width: 300px;
+}
+
+.column.small {
+	width: 240px;
+}
+
+.story {
+	font-family: Georgia;
+	font-size: 17px;
+	color: black;
+}
+
+.headline {
+	display: flex;
+	flex-direction: column;
+	font-family: Georgia;
+	font-weight: bold;
+	font-size: 30px;
+	color: White;
+	justify-content: flex-start;
+	height: 300px;
+}
+
+.main {
+	font-size: 40px;
+}
+
+.img-1 {
+	background-image: url('../images/img-story-main.png');
+}
+
+.img-2 {
+	background-image: url('../images/img-story-2.png');
+}
+
+.img-3 {
+	background-image: url('../images/img-story-3.png');
+}
+
+.img-4 {
+	background-image: url('../images/img-story-1.png');
 }
 
