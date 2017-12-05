@@ -1,7 +1,3 @@
-div {
-	border: 1px solid black;
-}
-
 header {
 	display: flex;
 	flex-direction: row;
@@ -69,9 +65,38 @@ nav span a {
 }
 
 .story {
+	display: flex;
+	flex-direction: column;
+	width: 300px;
 	font-family: Georgia;
 	font-size: 17px;
 	color: black;
+}
+
+.column.small h3 {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.news-bites {
+	display: block;
+	padding: 11px 20px;
+	background-color: WhiteSmoke;
+	font-family: Verdana;
+	font-size: 12px;
+	color: DimGray;
+	border-bottom: 1px solid black;
+}
+
+.headline-text {
+	font-family: Georgia;
+	font-size: 17px;
+	color: black;
+}
+
+.stories {
+	display: flex;
+	justify-content: space-around;
 }
 
 .headline {
@@ -105,3 +130,28 @@ nav span a {
 	background-image: url('../images/img-story-1.png');
 }
 
+.footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: MediumAquamarine;
+	height: 200px;
+	margin: auto;
+	font-family: Verdana;
+	font-size: 12px;
+}
+
+.footer-title {
+	font-family: Georgia;
+	font-size: 16px;
+	font-weight: bold;
+	color: white;
+	border-right: 2px solid white;
+	padding-right: 25px;
+}
+
+.links {
+	display: inline-block;
+	padding: 20px 10px;
+}
